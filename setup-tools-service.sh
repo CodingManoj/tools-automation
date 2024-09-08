@@ -1,1 +1,1 @@
-ansible-playbook -i ${tool_name}-expense.internal, -e ansible_user=ec2-user -e ansible_password=${SSH_PASSWORD} -e tool_name=${tool_name} setup-tools-service.yml
+ansible-playbook -i ${tool_name}.expense.internal, -e ansible_user=ec2-user -e ansible_password=${SSH_PASSWORD} -e tool_name=${tool_name} setup-tools-service.yml
